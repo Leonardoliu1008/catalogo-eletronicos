@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo de Eletrônicos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <!-- HEADER -->
+    <header>
+      <div class="content">
+        <nav>
+          <p class="brand">Eletro<strong>Lnd</strong></p>
+          <ul>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <button>Login</button>
+          </ul>
+        </nav>
+        <div class="header-block">
+          <div class="text">
+            <h2>Os melhores eletrônicos estão aqui</h2>
+            <p>
+              Celulares, notebooks, headsets e mais — tudo o que você precisa
+              com qualidade e tecnologia.
+            </p>
+          </div>
+          <img src="img/Asus ZenBook Pro 14 OLED.png" alt="Notebook" />
+        </div>
+      </div>
+    </header>
+
+
+    <!-- CATALOGO -->
+    <section class="catalogo" id="catalogo">
+      <div class="content">
+        <div class="title-wrapper-catalog">
+          <p>Encontre o produto ideal</p>
+          <h3>Catálogo</h3>
+        </div>
+
+        <div class="filter-card">
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Busque por modelo, marca..."
+          />
+          <button id="searchButton" class="search-button">Buscar</button>
+        </div>
+
+        <div class="card-wrapper" id="cardContainer">
+          <!-- Smartphones -->
+          <div class="card-item" data-name="samsung galaxy s24 ultra">
+            <img src="img/sumsung galaxy S24 ultra.png" alt="Galaxy S24 Ultra" />
+            <div class="card-content">
+              <h3>Samsung Galaxy S24 Ultra</h3>
+              <p>Smartphone premium com câmera de 200MP e processador Snapdragon 8 Gen 3.</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <div class="card-item" data-name="iphone 17">
+            <img src="img/iphone 17.png" alt="iPhone 17" />
+            <div class="card-content">
+              <h3>iPhone 17</h3>
+              <p>Smartphone Desempenho incrível e design elegante com chip A18 Bionic.</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <div class="card-item" data-name="samsung a53">
+            <img src="img/Samsung A53.png" alt="Samsung A53" />
+            <div class="card-content">
+              <h3>Samsung Galaxy A53</h3>
+              <p>Smartphone Equilíbrio perfeito entre desempenho e custo-benefício.</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <div class="card-item" data-name="iphone 16 pro max">
+            <img src="img/iphone 16 pro max.png" alt="iPhone 16 Pro Max" />
+            <div class="card-content">
+              <h3>iPhone 16 Pro Max</h3>
+              <p>Smartphone Experiência premium com câmeras avançadas e tela Super Retina XDR.</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <!-- Notebooks -->
+          <div class="card-item" data-name="asus zenbook pro 14 oled">
+            <img src="img/Asus ZenBook Pro 14 OLED.png" alt="ZenBook Pro 14" />
+            <div class="card-content">
+              <h3>Asus ZenBook Pro 14 OLED</h3>
+              <p>Notebook fino e potente com tela OLED e desempenho profissional.</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <div class="card-item" data-name="lenovo ideapad i7">
+            <img src="img/Lenovo IdeaPad 1i Intel Core i7-1255U, 15.6, Memória 12GB, SSD 512GB.png" alt="Lenovo IdeaPad" />
+            <div class="card-content">
+              <h3>Lenovo IdeaPad 1i</h3>
+              <p>Notebook Perfeito para trabalho e estudos, com 12GB de RAM e SSD de 512GB.</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <div class="card-item" data-name="msi stealth 15 rtx 4060">
+            <img src="img/MSI Stealth 15 A13VF038US 15.6 FHD 144Hz i5-13420H RTX 4060.png" alt="MSI Stealth 15" />
+            <div class="card-content">
+              <h3>MSI Stealth 15 RTX 4060</h3>
+              <p>Notebook gamer ultrafino com tela 144Hz e RTX 4060.</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <div class="card-item" data-name="rog strix g16 rtx4050">
+            <img src="img/Rog Strix G16 RTX4050 16GB 512GB SSD.png" alt="Rog Strix G16" />
+            <div class="card-content">
+              <h3>ROG Strix G16 RTX 4050</h3>
+              <p>Notebook Performance gamer extrema com 16GB RAM e SSD 512GB.</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <!-- Headsets -->
+          <div class="card-item" data-name="hyperx cloud alpha">
+            <img src="img/HyperX Cloud Alpha.png" alt="HyperX Cloud Alpha" />
+            <div class="card-content">
+              <h3>HyperX Cloud Alpha</h3>
+              <p>Headset Som cristalino e conforto excepcional para jogos.</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <div class="card-item" data-name="hyperx cloud flight">
+            <img src="img/HyperX Cloud Flight.png" alt="HyperX Cloud Flight" />
+            <div class="card-content">
+              <h3>HyperX Cloud Flight</h3>
+              <p>Headset sem fio com até 30h de bateria e microfone removível.</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <div class="card-item" data-name="hyperx cloud stinger">
+            <img src="img/HyperX Cloud Stinger.png" alt="HyperX Cloud Stinger" />
+            <div class="card-content">
+              <h3>HyperX Cloud Stinger</h3>
+              <p>Headset Leve e ergonômico, ideal para longas sessões de jogo.</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="sobre" id="sobre">
+      <div class="content">
+        <div class="title-wrapper-about">
+          <p>Conheça nossa loja</p>
+          <h3>Sobre</h3>
+        </div>
+        <div class="about-content">
+          <div class="left">
+            <img src="img/Asus ZenBook Pro 14 OLED.png" alt="EletroTech" />
+          </div>
+          <div class="right">
+            <h3>Paixão por tecnologia</h3>
+            <p>
+              Na <strong>EletroLnd</strong>, acreditamos que a tecnologia
+              transforma vidas. Trabalhamos com as melhores marcas e produtos
+              eletrônicos do mercado, 
+            </p>
+            <p>
+                sempre oferecendo qualidade, confiança e
+              inovação aos nossos clientes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <footer id="contato">
+      <div class="main">
+        <div class="content footer-links">
+          <div class="footer-company">
+            <h4>Empresa</h4>
+            <h6>Sobre nós</h6>
+            <h6>Carreiras</h6>
+            <h6>Blog</h6>
+          </div>
+
+          <div class="footer-social">
+            <h4>Conecte-se</h4>
+            <div class="social-icons">
+              <img src="img/instagram.png" alt="Instagram" />
+              <img src="img/facebook.png" alt="Facebook" />
+            </div>
+          </div>
+
+          <div class="footer-contact">
+            <h4>Contato</h4>
+            <h6>+55 17 99999-9999</h6>
+            <h6>contato@eletrolnd.com.br</h6>
+            <h6>São Paulo - SP</h6>
+          </div>
+        </div>
+      </div>
+      <div class="last">© 2025 EletroLnd - Todos os direitos reservados</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
