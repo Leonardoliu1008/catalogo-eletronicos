@@ -19,13 +19,10 @@ body {
 header {
   width: 100%;
   height: 100vh;
-<<<<<<< HEAD
   display: flex;
   background: linear-gradient(135deg, #0f1115, #1a1f2b);
-=======
   background: linear-gradient(135deg, #0f1115, #1a1f2b);
   display: flex;
->>>>>>> e696e3000ab3fcee7b87aaf31cf385cad06bc6c4
   align-items: center;
   justify-content: center;
 }
@@ -404,8 +401,5 @@ footer .last {
   .about-content .left img {
     width: 90%;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e696e3000ab3fcee7b87aaf31cf385cad06bc6c4
+
